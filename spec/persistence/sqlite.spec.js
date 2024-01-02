@@ -8,6 +8,8 @@ const ITEM = {
     completed: false,
 };
 
+// Comment
+
 beforeEach(() => {
     if (fs.existsSync(location)) {
         fs.unlinkSync(location);
